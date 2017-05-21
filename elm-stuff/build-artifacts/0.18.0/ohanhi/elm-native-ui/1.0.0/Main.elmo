@@ -1,9 +1,0 @@
-var _ohanhi$elm_native_ui$Main$main = _ohanhi$elm_native_ui$NativeUi$program(
-	{
-		init: {ctor: '_Tuple2', _0: _ohanhi$elm_native_ui$App_State$model, _1: _ohanhi$elm_native_ui$App_Rest$getScheduleCmd},
-		view: _ohanhi$elm_native_ui$App_View$view,
-		update: _ohanhi$elm_native_ui$App_State$update,
-		subscriptions: function (_p0) {
-			return _elm_lang$core$Platform_Sub$none;
-		}
-	})();
