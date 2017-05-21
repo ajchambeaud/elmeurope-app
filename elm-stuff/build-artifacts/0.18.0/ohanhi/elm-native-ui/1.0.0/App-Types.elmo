@@ -1,0 +1,25 @@
+var _ohanhi$elm_native_ui$App_Types$Speaker = F3(
+	function (a, b, c) {
+		return {name: a, bio: b, image: c};
+	});
+var _ohanhi$elm_native_ui$App_Types$Talk = F5(
+	function (a, b, c, d, e) {
+		return {title: a, speaker: b, description: c, start: d, duration: e};
+	});
+var _ohanhi$elm_native_ui$App_Types$BreakTime = F3(
+	function (a, b, c) {
+		return {title: a, start: b, duration: c};
+	});
+var _ohanhi$elm_native_ui$App_Types$Model = function (a) {
+	return {activities: a};
+};
+var _ohanhi$elm_native_ui$App_Types$BreakTimeActivity = function (a) {
+	return {ctor: 'BreakTimeActivity', _0: a};
+};
+var _ohanhi$elm_native_ui$App_Types$TalkActivity = function (a) {
+	return {ctor: 'TalkActivity', _0: a};
+};
+var _ohanhi$elm_native_ui$App_Types$ScheduleResponse = function (a) {
+	return {ctor: 'ScheduleResponse', _0: a};
+};
+var _ohanhi$elm_native_ui$App_Types$LoadSchedule = {ctor: 'LoadSchedule'};

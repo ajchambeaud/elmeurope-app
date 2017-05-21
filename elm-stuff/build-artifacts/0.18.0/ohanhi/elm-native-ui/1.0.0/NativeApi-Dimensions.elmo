@@ -1,0 +1,5 @@
+var _ohanhi$elm_native_ui$NativeApi_Dimensions$WindowSize = F2(
+	function (a, b) {
+		return {height: a, width: b};
+	});
+var _ohanhi$elm_native_ui$NativeApi_Dimensions$window = A2(_ohanhi$elm_native_ui$NativeApi_Dimensions$WindowSize, _ohanhi$elm_native_ui$Native_NativeUi_Dimensions.windowHeight, _ohanhi$elm_native_ui$Native_NativeUi_Dimensions.windowWidth);

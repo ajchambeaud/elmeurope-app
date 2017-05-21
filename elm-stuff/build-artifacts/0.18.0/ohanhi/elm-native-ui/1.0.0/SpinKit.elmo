@@ -1,0 +1,64 @@
+var _ohanhi$elm_native_ui$SpinKit$size = function (_p0) {
+	return A2(
+		_ohanhi$elm_native_ui$NativeUi$property,
+		'size',
+		_elm_lang$core$Json_Encode$int(_p0));
+};
+var _ohanhi$elm_native_ui$SpinKit$color = function (_p1) {
+	return A2(
+		_ohanhi$elm_native_ui$NativeUi$property,
+		'color',
+		_elm_lang$core$Json_Encode$string(_p1));
+};
+var _ohanhi$elm_native_ui$SpinKit$isVisible = function (_p2) {
+	return A2(
+		_ohanhi$elm_native_ui$NativeUi$property,
+		'isVisible',
+		_elm_lang$core$Json_Encode$bool(_p2));
+};
+var _ohanhi$elm_native_ui$SpinKit$spinner = A2(_ohanhi$elm_native_ui$NativeUi$customNode, 'SpinKit', _ohanhi$elm_native_ui$Native_SpinKit.view);
+var _ohanhi$elm_native_ui$SpinKit$spinnerTypeToValue = function (sType) {
+	var _p3 = sType;
+	switch (_p3.ctor) {
+		case 'CircleFlip':
+			return 'CircleFlip';
+		case 'Bounce':
+			return 'Bounce';
+		case 'Wave':
+			return 'Wave';
+		case 'WanderingCubes':
+			return 'WanderingCubes';
+		case 'Pulse':
+			return 'Pulse';
+		case 'ChasingDots':
+			return 'ChasingDots';
+		case 'ThreeBounce':
+			return 'ThreeBounce';
+		case 'Circle':
+			return 'Circle';
+		case 'CubeGrid9':
+			return '9CubeGrid';
+		case 'FadingCircle':
+			return 'FadingCircle';
+		default:
+			return 'FadingCircleAlt';
+	}
+};
+var _ohanhi$elm_native_ui$SpinKit$spinnerType = function (_p4) {
+	return A2(
+		_ohanhi$elm_native_ui$NativeUi$property,
+		'type',
+		_elm_lang$core$Json_Encode$string(
+			_ohanhi$elm_native_ui$SpinKit$spinnerTypeToValue(_p4)));
+};
+var _ohanhi$elm_native_ui$SpinKit$FadingCircleAlt = {ctor: 'FadingCircleAlt'};
+var _ohanhi$elm_native_ui$SpinKit$FadingCircle = {ctor: 'FadingCircle'};
+var _ohanhi$elm_native_ui$SpinKit$CubeGrid9 = {ctor: 'CubeGrid9'};
+var _ohanhi$elm_native_ui$SpinKit$Circle = {ctor: 'Circle'};
+var _ohanhi$elm_native_ui$SpinKit$ThreeBounce = {ctor: 'ThreeBounce'};
+var _ohanhi$elm_native_ui$SpinKit$ChasingDots = {ctor: 'ChasingDots'};
+var _ohanhi$elm_native_ui$SpinKit$Pulse = {ctor: 'Pulse'};
+var _ohanhi$elm_native_ui$SpinKit$WanderingCubes = {ctor: 'WanderingCubes'};
+var _ohanhi$elm_native_ui$SpinKit$Wave = {ctor: 'Wave'};
+var _ohanhi$elm_native_ui$SpinKit$Bounce = {ctor: 'Bounce'};
+var _ohanhi$elm_native_ui$SpinKit$CircleFlip = {ctor: 'CircleFlip'};
